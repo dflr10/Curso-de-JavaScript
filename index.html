@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es" data-dark>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Simple Web App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.1.3/hamburgers.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="#">
+</head>
+
+<body data-dark>
+
+    <header class="header" data-dark>
+        <h1>DOM Simple Web App</h1>
+    </header>
+
+    <button class="panel-btn hamburger hamburger--elastic-r" type="button">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <aside class="panel">
+        <nav class="menu">
+            <a href="#section1" data-scroll-spy>Digital Watch & Audible Alarm</a>
+            <a href="#section2" data-scroll-spy>Keyboard Events</a>
+            <a href="#section3" data-scroll-spy>Countdown</a>
+            <a href="#section4" data-scroll-spy>Responsive Designe with JavaScript</a>
+            <a href="#section5" data-scroll-spy>Responsive Tester</a>
+            <a href="#section6" data-scroll-spy>Device Detection (User Agent)</a>
+            <a href="#section7" data-scroll-spy>Connection Detection</a>
+            <a href="#section8" data-scroll-spy>Webcam Detection</a>
+            <a href="#section9" data-scroll-spy>Geolocation</a>
+            <a href="#section10" data-scroll-spy>Search Filters</a>
+            <a href="#section11" data-scroll-spy>Digital Giveaway</a>
+            <a href="#section12" data-scroll-spy>Responsive Slider</a>
+            <a href="#section13" data-scroll-spy>Smart Video</a>
+            <a href="#section14" data-scroll-spy>Form Validations</a>
+            <a href="#section15" data-scroll-spy>Voice Narrator</a>
+
+        </nav>
+    </aside>
+
+    <main>
+        <section id="section1" class="section" data-scroll-spy>
+            <h2>Digital Watch & Audible Alarm</h2>
+
+            <div id="watch"></div>
+            <div>
+                <button id="enable-watch">Enable Watch</button>
+                <button id="disable-watch">Disable Watch</button>
+                <button id="enable-alarm">Enable Alarm</button>
+                <button id="disable-alarm">Disable Alarm</button>
+            </div>
+        </section>
+        <section id="section2" class="section" data-scroll-spy>
+            <h2>Keyboard Events</h2>
+            <h3>¡Move the arrow keys on the keyboard (← ↑ ↓ →) to move the Pacman! </h3>
+            <article class="stage">
+                <div class="ball"></div>
+            </article>
+            <div>
+                <h3>Press [ Alt + Ⓐ ] to see an ALERT</h3>
+                <h3>Press [ Alt + Ⓒ ] to see a CONFIRMATION</h3>
+                <h3>Press [ Alt + Ⓟ ] to see a PROMPT</h3>
+            </div>
+        </section>
+        <section id="section3" class="section" data-scroll-spy>
+            <h2>Countdown</h2>
+            <div id="countdown"></div>
+        </section>
+        <section id="section4" class="section" data-scroll-spy>
+            <h2>Responsive Designe with JavaScript</h2>
+            <div id="youtube"></div>
+            <div id="gmaps"></div>
+        </section>
+        <section id="section5" class="section" data-scroll-spy>
+            <h2>Responsive Tester</h2>
+            <form id="responsive-tester">
+                <input name="dir" type="url" placeholder="URL" required>
+                <br>
+                <input name="pageWidht" type="text" placeholder="Page Widht" required>
+                <br>
+                <input name="pageHeight" type="text" placeholder="Page Height" required>
+                <br>
+                <input id="btnTest" name="test" type="submit" value="Test">
+                <input id="btnClose" name="close" type="button" value="Close">
+            </form>
+        </section>
+        <section id="section6" class="section" data-scroll-spy>
+            <h2>Device Detection <br> (User Agent)</h2>
+            <div id="user-device"></div>
+        </section>
+        <section id="section7" class="section" data-scroll-spy>
+            <h2>Connection Detection</h2>
+        </section>
+        <section id="section8" class="section" data-scroll-spy>
+            <h2>Webcam Detection</h2>
+            <video id="webcam"></video>
+        </section>
+        <section id="section9" class="section" data-scroll-spy>
+            <h2>Geolocation</h2>
+            <div id="geolocation"></div>
+        </section>
+        <section id="section10" class="section" data-scroll-spy>
+            <h2>Search Filters</h2>
+            <input id="search" type="search" placeholder="Search..." class="card-filter">
+            <article class="cards">
+                <figure class="card">
+                    <img src="https://placeimg.com/200/200/nature" alt="Nature">
+                    <figcaption>Nature</figcaption>
+                </figure>
+                <figure class="card">
+                    <img src="https://placeimg.com/200/200/arch" alt="Architecture">
+                    <figcaption>Architecture</figcaption>
+                </figure>
+                <figure class="card">
+                    <img src="https://placeimg.com/200/200/tech" alt="Technology">
+                    <figcaption>Technology</figcaption>
+                </figure>
+                <figure class="card">
+                    <img src="https://placeimg.com/200/200/people" alt="People">
+                    <figcaption>People</figcaption>
+                </figure>
+                <figure class="card">
+                    <img src="https://placeimg.com/200/200/animals" alt="Animals">
+                    <figcaption>Animals</figcaption>
+                </figure>
+                <figure class="card">
+                    <img src="https://placeimg.com/200/200/any/grayscale" alt="Any">
+                    <figcaption>Any</figcaption>
+                </figure>
+                <figure class="card">
+                    <img src="https://placeimg.com/200/200/any/debian" alt="Any">
+                    <figcaption>Any</figcaption>
+                </figure>
+                <figure class="card">
+                    <img src="https://placeimg.com/200/200/any/grayscale" alt="Any">
+                    <figcaption>Any</figcaption>
+                </figure>
+            </article>
+        </section>
+        <section id="section11" class="section" data-scroll-spy>
+            <h2>Digital Giveaway</h2>
+            <ul class="players">
+                <li class="player">JavaScript</li>
+                <li class="player">PHP</li>
+                <li class="player">Java</li>
+                <li class="player">C#</li>
+                <li class="player">Python</li>
+                <li class="player">Ruby</li>
+                <li class="player">Go</li>
+                <li class="player">C++</li>
+                <li class="player">Rust</li>
+                <li class="player">Perl</li>
+            </ul>
+            <button id="winner-btn">Get Winner</button>
+            <div id=""></div>
+        </section>
+        <section id="section12" class="section" data-scroll-spy>
+            <h2>Responsive Slider</h2>
+            <div class="slider">
+                <div class="slider-slides">
+                    <div class="slider-slide active"> <img src="https://placeimg.com/400/400/tech" alt="Technology">
+                    </div>
+
+                    <div class="slider-slide">
+                        <h4>Slide 2</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime consequuntur neque voluptatum
+                            sint beatae temporibus ab inventore qui voluptas aperiam mollitia veniam aspernatur
+                            blanditiis eum provident magnam, ex, ipsa nisi?Lorem, ipsum dolor sit amet consectetur
+                            adipisicing elit. Eaque dicta necessitatibus quae doloribus obcaecati tenetur labore odio
+                            possimus harum tempora, perferendis, voluptates at dignissimos placeat voluptatem maxime.
+                            Obcaecati, ipsum consectetur.</p>
+                    </div>
+
+                    <div class="slider-slide">
+                        <img src="https://placeimg.com/400/400/arch" alt="Technology">
+                    </div>
+
+                    <div class="slider-slide">
+                        <h4>Slide 4</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime consequuntur neque voluptatum
+                            sint beatae temporibus ab inventore qui voluptas aperiam mollitia veniam aspernatur
+                            blanditiis eum provident magnam, ex, ipsa nisi?Lorem, ipsum dolor sit amet consectetur
+                            adipisicing elit. Eaque dicta necessitatibus quae doloribus obcaecati tenetur labore odio
+                            possimus harum tempora, perferendis, voluptates at dignissimos placeat voluptatem maxime.
+                            Obcaecati, ipsum consectetur.</p>
+                    </div>
+
+                    <div class="slider-slide">
+                        <img src="https://placeimg.com/400/400/people" alt="People">
+                    </div>
+
+                    <div class="slider-slide">
+                        <h4>Slide 6</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime consequuntur neque voluptatum
+                            sint beatae temporibus ab inventore qui voluptas aperiam mollitia veniam aspernatur
+                            blanditiis eum provident magnam, ex, ipsa nisi?Lorem, ipsum dolor sit amet consectetur
+                            adipisicing elit. Eaque dicta necessitatibus quae doloribus obcaecati tenetur labore odio
+                            possimus harum tempora, perferendis, voluptates at dignissimos placeat voluptatem maxime.
+                            Obcaecati, ipsum consectetur.</p>
+                    </div>
+
+                </div>
+                <div class="slider-btn">
+                    <a class="prev" href="#">&laquo;</a>
+                    <a class="next" href="#">&raquo;</a>
+                </div>
+
+            </div>
+            </div>
+        </section>
+        <section id="section13" class="section" data-scroll-spy>
+            <h2>Smart Video</h2>
+            <video src="assets/video.mp4" muted controls loop data-smart-video></video>
+        </section>
+        <section id="section14" class="section" data-scroll-spy>
+            <h2>Form Validations</h2>
+            <form class="contact-form">
+                <legend>Send us your comments.</legend>
+                <input type="text" name="name" placeholder="Write your name"
+                    title="¡Name only accepts letters and blanks!" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+                <input type="email" name="email" placeholder="Write your email" title="¡Wrong email!"
+                    pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
+                <input type="text" name="subject" placeholder="Comment subject" title="¡The subject is required!"
+                    required>
+                <textarea name="comments" cols="50" rows="5" placeholder="Write your comments"
+                    title="¡Your comment must not exceed 255 characters!" data-pattern="^.{1,255}$" required></textarea>
+                <input type="submit" value="Send">
+                <div class="contact-form-loader none">
+                    <img src="assets/loader.svg" alt="Loading">
+                </div>
+                <div class="contact-form-response none">
+                    <p>The data has been sent.</p>
+                </div>
+            </form>
+        </section>
+        <section id="section15" class="section" data-scroll-spy>
+            <h2>Voice Narrator</h2>
+            <select id="speech-select">
+                <option value="">--Choose a voice narrator--</option>
+            </select>
+            <textarea id="speech-text" cols="50" rows="5" placeholder="Enter text to read."></textarea>
+            <button id="speech-btn">Read</button>
+        </section>
+
+    </main>
+
+    <button class="hidden scroll-top-btn">▲</button>
+    <button class="dark-mode-btn">🌑</button>
+
+    <script src="js/script.js" type="module"></script>
+</body>
+
+</html>
