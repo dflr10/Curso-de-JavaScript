@@ -36,7 +36,7 @@ d.addEventListener("DOMContentLoaded", (e) => {
     "youtube",
     "(min-width:1024px)",
     `<a href="https://www.youtube.com/watch?v=miujY3EKNfY&ab_channel=Johancifuentes" target="_blank rel="noopener">Ver Vídeo</a>`,
-    `<iframe width="560" height="315" src="https://www.youtube.com/embed/EosncdAanhQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+    `<iframe width="560" height="315" src="https://www.youtube.com/watch?v=dF7lp_qBfV0&ab_channel=jonmircha" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
   );
   responsiveMedia(
     "gmaps",
